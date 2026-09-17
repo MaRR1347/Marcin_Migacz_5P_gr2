@@ -1,1 +1,2 @@
-Pierwszy plik
+cmdkey /list	<- sprawdza listę poświadczeń
+cmdkey -delete:git(użytkownik)	<- usuwa użytkownika git z poświadczeń

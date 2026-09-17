@@ -1,0 +1,16 @@
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.AssemblyInfoInputs.cache
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.AssemblyInfo.cs
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.csproj.CoreCompileInputs.cache
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.sourcelink.json
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\bin\Debug\net10.0\Aplikacja_do_testowania.exe
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\bin\Debug\net10.0\Aplikacja_do_testowania.deps.json
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\bin\Debug\net10.0\Aplikacja_do_testowania.runtimeconfig.json
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\bin\Debug\net10.0\Aplikacja_do_testowania.dll
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\bin\Debug\net10.0\Aplikacja_do_testowania.pdb
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.dll
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\refint\Aplikacja_do_testowania.dll
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.pdb
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacja_do_testowania.genruntimeconfig.cache
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\ref\Aplikacja_do_testowania.dll
+C:\Users\EUTK\source\repos\Marcin_Migacz_5P_gr2\Marcin_Migacz_5P_gr2\Aplikacja_do_testowania\obj\Debug\net10.0\Aplikacj.20A76AC6.Up2Date
