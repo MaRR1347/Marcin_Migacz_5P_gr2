@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../LoteriaTests/LoteriaTests.csproj" Id="b8b4bf48-5114-4628-a971-7d299825ceb8" />
   <Project Path="Loteria.csproj" />
 </Solution>
