@@ -39,5 +39,14 @@
             }
         }
 
+        // TEST 4 (niepoprawny): liczba 50 jest poza zakresem
+        [Fact]
+        public void WyswietlLosowania_LiczbaPoza_Zakresem_RzucaWyjatek()
+        {
+            int[,] losowania = { { 1, 2, 3, 4, 5, 50 } };
+
+            Assert.Throws<IndexOutOfRangeException>(() => Program.WyswietlLosowania(1, losowania));
+        }
+
     }
 }
