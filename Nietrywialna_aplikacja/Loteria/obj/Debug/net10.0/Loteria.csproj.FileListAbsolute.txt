@@ -1,0 +1,16 @@
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\bin\Debug\net10.0\Loteria.exe
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\bin\Debug\net10.0\Loteria.deps.json
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\bin\Debug\net10.0\Loteria.runtimeconfig.json
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\bin\Debug\net10.0\Loteria.dll
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\bin\Debug\net10.0\Loteria.pdb
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.AssemblyInfoInputs.cache
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.AssemblyInfo.cs
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.csproj.CoreCompileInputs.cache
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.sourcelink.json
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.dll
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\refint\Loteria.dll
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.pdb
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.genruntimeconfig.cache
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\ref\Loteria.dll
+C:\Projekty\GIT\Marcin_Migacz_5P_gr2\Nietrywialna_aplikacja\Loteria\obj\Debug\net10.0\Loteria.csproj.Up2Date
