@@ -8,19 +8,24 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\EUTK\\.nuget\\packages\\": {}
+    "C:\\Users\\mmiga\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EUTK\\source\\repos\\Marcin_Migacz_5P_gr2\\Marcin_Migacz_5P_gr2\\Aplikacja_do_testowania\\Aplikacja_do_testowania.csproj",
+      "projectUniqueName": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Aplikacja_do_testowania\\Aplikacja_do_testowania.csproj",
       "projectName": "Aplikacja_do_testowania",
-      "projectPath": "C:\\Users\\EUTK\\source\\repos\\Marcin_Migacz_5P_gr2\\Marcin_Migacz_5P_gr2\\Aplikacja_do_testowania\\Aplikacja_do_testowania.csproj",
-      "packagesPath": "C:\\Users\\EUTK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EUTK\\source\\repos\\Marcin_Migacz_5P_gr2\\Marcin_Migacz_5P_gr2\\Aplikacja_do_testowania\\obj\\",
+      "projectPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Aplikacja_do_testowania\\Aplikacja_do_testowania.csproj",
+      "packagesPath": "C:\\Users\\mmiga\\.nuget\\packages\\",
+      "outputPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Aplikacja_do_testowania\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\EUTK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mmiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

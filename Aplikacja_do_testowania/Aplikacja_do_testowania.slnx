@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../CalculatorTests/CalculatorTests.csproj" Id="382c22df-d4bf-4407-aac1-a8fb2509d63f" />
   <Project Path="Aplikacja_do_testowania.csproj" />
 </Solution>
