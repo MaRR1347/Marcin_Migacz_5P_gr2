@@ -930,23 +930,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mmiga\\.nuget\\packages\\": {},
+    "C:\\Users\\Uczen\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\LoteriaTests.csproj",
+      "projectUniqueName": "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\LoteriaTests.csproj",
       "projectName": "LoteriaTests",
-      "projectPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\LoteriaTests.csproj",
-      "packagesPath": "C:\\Users\\mmiga\\.nuget\\packages\\",
-      "outputPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\obj\\",
+      "projectPath": "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\LoteriaTests.csproj",
+      "packagesPath": "C:\\Users\\Uczen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mmiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Uczen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -963,8 +963,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj": {
-              "projectPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj"
+            "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj": {
+              "projectPath": "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj"
             }
           }
         }

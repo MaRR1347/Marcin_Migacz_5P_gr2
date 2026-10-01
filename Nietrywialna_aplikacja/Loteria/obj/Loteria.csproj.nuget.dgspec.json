@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj": {}
+    "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj": {}
   },
   "projects": {
-    "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj": {
+    "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj",
+        "projectUniqueName": "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj",
         "projectName": "Loteria",
-        "projectPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj",
-        "packagesPath": "C:\\Users\\mmiga\\.nuget\\packages\\",
-        "outputPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\obj\\",
+        "projectPath": "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Loteria.csproj",
+        "packagesPath": "C:\\Users\\Uczen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uczen\\source\\repos\\mm\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mmiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Uczen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

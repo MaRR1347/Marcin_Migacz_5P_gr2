@@ -12,7 +12,7 @@ namespace Loteria
         {
             Console.WriteLine("Ile wygenerować losowań?");
 
-            if (int.TryParse(Console.ReadLine(), out int ileZestawow))
+            if (int.TryParse(Console.ReadLine(), out int ileZestawow) && ileZestawow > 0)
             {
                 int[,] losowania = new int[ileZestawow, LiczbWZestawie];
 
@@ -29,7 +29,7 @@ namespace Loteria
             }
             else
             {
-                Console.WriteLine("Niepoprawna wartość. Podaj liczbę całkowitą z zakresu 1-49");
+                Console.WriteLine("Niepoprawna wartość. Podaj liczbę całkowitą większą od 0");
                 return;
             }
         }
