@@ -30,7 +30,7 @@
               "RelativeDocumentMoniker": "..\\LoteriaTests\\UnitTest2.cs",
               "ToolTip": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\UnitTest2.cs",
               "RelativeToolTip": "..\\LoteriaTests\\UnitTest2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwC8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T16:53:35.11Z",
               "EditorCaption": ""
@@ -45,8 +45,7 @@
               "RelativeToolTip": "..\\LoteriaTests\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T21:16:25.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T21:16:25.615Z"
             },
             {
               "$type": "Document",
@@ -58,8 +57,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T20:20:41.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T20:20:41.43Z"
             }
           ]
         }

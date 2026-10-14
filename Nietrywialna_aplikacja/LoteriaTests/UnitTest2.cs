@@ -33,5 +33,27 @@
                 Assert.Contains("Wystąpienia liczby 49:", output);
             }
         }
+
+        // TEST 2 (poprawny): Integracja całej metody Main z poprawnym wejściem użytkownika
+        [Fact]
+        public void Integracja_Main_PoprawneDane_WypisujeZestawyIStatystyki()
+        {
+            string input = "2" + Environment.NewLine; // Użytkownik podaje 2 zestawy
+            using (StringReader sr = new StringReader(input))
+            using (StringWriter sw = new StringWriter())
+            {
+                Console.SetIn(sr);
+                Console.SetOut(sw);
+
+                Program.Main(new string[0]);
+
+                string output = sw.ToString();
+                Assert.Contains("Ile wygenerować losowań?", output);
+                Assert.Contains("Zestawy wylosowanych liczb:", output);
+                Assert.Contains("Losowanie 1:", output);
+                Assert.Contains("Losowanie 2:", output);
+                Assert.Contains("Wystąpienia liczby", output);
+            }
+        }
     }
 }
