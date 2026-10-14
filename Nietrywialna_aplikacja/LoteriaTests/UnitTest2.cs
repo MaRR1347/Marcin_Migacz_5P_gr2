@@ -1,4 +1,6 @@
-﻿namespace Loteria
+﻿using System.Text.RegularExpressions;
+
+namespace Loteria
 {
     public class IntegrationTests
     {
@@ -53,6 +55,38 @@
                 Assert.Contains("Losowanie 1:", output);
                 Assert.Contains("Losowanie 2:", output);
                 Assert.Contains("Wystąpienia liczby", output);
+            }
+        }
+
+        // TEST 3 (poprawny): Weryfikacja spójności danych – zliczenie łącznej sumy wystąpień w wyjściu konsoli
+        [Fact]
+        public void Integracja_WyswietlLosowania_PoprawnieZliczaSumeWystapienLiczb()
+        {
+            int ileZestawow = 5;
+            int[,] losowania = new int[ileZestawow, 6];
+
+            for (int i = 0; i < ileZestawow; i++)
+            {
+                int[] zestaw = Program.LosujZestaw();
+                for (int j = 0; j < 6; j++)
+                {
+                    losowania[i, j] = zestaw[j];
+                }
+            }
+
+            using (StringWriter sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+
+                Program.WyswietlLosowania(ileZestawow, losowania);
+
+                string output = sw.ToString();
+
+                // Wyciągnięcie wartości po dwukropku z linii "Wystąpienia liczby X: Y"
+                var matches = Regex.Matches(output, @"Wystąpienia liczby \d+: (\d+)");
+                int sumaWystapien = matches.Cast<Match>().Sum(m => int.Parse(m.Groups[1].Value));
+
+                Assert.Equal(ileZestawow * 6, sumaWystapien);
             }
         }
     }
