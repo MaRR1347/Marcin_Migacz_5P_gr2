@@ -89,5 +89,24 @@ namespace Loteria
                 Assert.Equal(ileZestawow * 6, sumaWystapien);
             }
         }
+
+        // TEST 4 (niepoprawny): Integracja metody Main z błędnym wejściem użytkownika
+        [Fact]
+        public void Integracja_Main_NiepoprawneDane_WypisujeKomunikatOBledzie()
+        {
+            string input = "abc" + Environment.NewLine; // Użytkownik podaje tekst zamiast liczby
+            using (StringReader sr = new StringReader(input))
+            using (StringWriter sw = new StringWriter())
+            {
+                Console.SetIn(sr);
+                Console.SetOut(sw);
+
+                Program.Main(new string[0]);
+
+                string output = sw.ToString();
+                Assert.Contains("Niepoprawna wartość. Podaj liczbę całkowitą większą od 0", output);
+                Assert.DoesNotContain("Zestawy wylosowanych liczb:", output);
+            }
+        }
     }
 }
