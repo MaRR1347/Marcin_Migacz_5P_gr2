@@ -59,5 +59,22 @@ namespace Loteria
             Assert.DoesNotContain("Losowanie 4:", output);
             Assert.Contains("Wystąpienia liczby 49:", output);
         }
+
+        // TEST 3 (poprawny): Wydajność systemowa - generowanie dużej liczby losowań
+        [Fact]
+        public void System_SzybkosceDzialania_WykonanieDlaDuzejLiczbyLosowan()
+        {
+            // Arrange
+            Stopwatch stoper = Stopwatch.StartNew();
+
+            // Act
+            var (exitCode, output) = UruchomProcesSystemowy("1000");
+            stoper.Stop();
+
+            // Assert
+            Assert.Equal(0, exitCode);
+            Assert.Contains("Losowanie 1000:", output);
+            Assert.True(stoper.ElapsedMilliseconds < 2000, $"Czas wykonania wyniósł {stoper.ElapsedMilliseconds} ms, oczekiwano poniżej 2000 ms.");
+        }
     }
 }
