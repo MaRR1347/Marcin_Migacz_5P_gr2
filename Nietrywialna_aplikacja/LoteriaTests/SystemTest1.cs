@@ -76,5 +76,18 @@ namespace Loteria
             Assert.Contains("Losowanie 1000:", output);
             Assert.True(stoper.ElapsedMilliseconds < 2000, $"Czas wykonania wyniósł {stoper.ElapsedMilliseconds} ms, oczekiwano poniżej 2000 ms.");
         }
+
+        // TEST 4 (niepoprawny): Reakcja systemu na niepoprawne dane wejściowe
+        [Fact]
+        public void System_BledneDaneWejsciowe_ZwracaObsluzonyBdadIObrywaProces()
+        {
+            // Act
+            var (exitCode, output) = UruchomProcesSystemowy("nie_liczba");
+
+            // Assert
+            Assert.Equal(0, exitCode); // Aplikacja nie może się skraszować (crash/exception)
+            Assert.Contains("Niepoprawna wartość. Podaj liczbę całkowitą większą od 0", output);
+            Assert.DoesNotContain("Zestawy wylosowanych liczb:", output);
+        }
     }
 }
