@@ -79,6 +79,19 @@ namespace Loteria
             }
         }
 
+        // TEST 4 (niepoprawny): Scenariusz – obsługa błędnego wpisania liczby przez użytkownika
+        [Fact]
+        public void Akceptacyjny_UzytkownikWpisujeBledneDane_OtrzymujeCzytelnyKomunikat()
+        {
+            // Given: Użytkownik wpisuje błędne dane ("zero")
+            string wejscieUzytkownika = "zero";
 
+            // When: Użytkownik zatwierdza wejście
+            string wynik = UruchomAplikacjeJakoUzytkownik(wejscieUzytkownika);
+
+            // Then: Program wypisuje komunikat o błędzie i nie wyświetla sekcji wyników
+            Assert.Contains("Niepoprawna wartość. Podaj liczbę całkowitą większą od 0", wynik);
+            Assert.DoesNotContain("Zestawy wylosowanych liczb:", wynik);
+        }
     }
 }
