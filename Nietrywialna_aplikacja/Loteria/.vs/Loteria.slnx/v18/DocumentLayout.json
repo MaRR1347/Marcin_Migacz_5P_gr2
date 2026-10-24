@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8B4BF48-5114-4628-A971-7D299825CEB8}|..\\LoteriaTests\\LoteriaTests.csproj|c:\\projekty\\git\\marcin_migacz_5p_gr2\\nietrywialna_aplikacja\\loteriatests\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8B4BF48-5114-4628-A971-7D299825CEB8}|..\\LoteriaTests\\LoteriaTests.csproj|c:\\projekty\\git\\marcin_migacz_5p_gr2\\nietrywialna_aplikacja\\loteriatests\\unittest3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8B4BF48-5114-4628-A971-7D299825CEB8}|..\\LoteriaTests\\LoteriaTests.csproj|c:\\projekty\\git\\marcin_migacz_5p_gr2\\nietrywialna_aplikacja\\loteriatests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B4BF48-5114-4628-A971-7D299825CEB8}|..\\LoteriaTests\\LoteriaTests.csproj|c:\\projekty\\git\\marcin_migacz_5p_gr2\\nietrywialna_aplikacja\\loteriatests\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185E1535-7F72-FCCB-B50A-2C17976CC78F}|Loteria.csproj|c:\\projekty\\git\\marcin_migacz_5p_gr2\\nietrywialna_aplikacja\\loteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,12 +28,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTest3.cs",
+              "DocumentMoniker": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\UnitTest3.cs",
+              "RelativeDocumentMoniker": "..\\LoteriaTests\\UnitTest3.cs",
+              "ToolTip": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\UnitTest3.cs",
+              "RelativeToolTip": "..\\LoteriaTests\\UnitTest3.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T09:18:23.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UnitTest2.cs",
               "DocumentMoniker": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\UnitTest2.cs",
               "RelativeDocumentMoniker": "..\\LoteriaTests\\UnitTest2.cs",
               "ToolTip": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\UnitTest2.cs",
               "RelativeToolTip": "..\\LoteriaTests\\UnitTest2.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowG8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T16:53:35.11Z",
               "EditorCaption": ""
@@ -43,13 +59,14 @@
               "RelativeDocumentMoniker": "..\\LoteriaTests\\UnitTest1.cs",
               "ToolTip": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\LoteriaTests\\UnitTest1.cs",
               "RelativeToolTip": "..\\LoteriaTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAD4vy8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T21:16:25.615Z"
+              "WhenOpened": "2026-09-30T21:16:25.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projekty\\GIT\\Marcin_Migacz_5P_gr2\\Nietrywialna_aplikacja\\Loteria\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

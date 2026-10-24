@@ -1,0 +1,51 @@
+﻿using System.Diagnostics;
+
+namespace Loteria
+{
+    public class SystemTests
+    {
+        // Scieżka do skompilowanego pliku wykonywalnego aplikacji (.exe)
+        private readonly string _sciezkaDoAplikacji = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Loteria.exe");
+
+        // Helper uruchamiający proces systemowy aplikacji
+        private (int ExitCode, string Output) UruchomProcesSystemowy(string input)
+        {
+            ProcessStartInfo psi = new ProcessStartInfo
+            {
+                FileName = _sciezkaDoAplikacji,
+                RedirectStandardInput = true,
+                RedirectStandardOutput = true,
+                UseShellExecute = false,
+                CreateNoWindow = true
+            };
+
+            using (Process process = new Process { StartInfo = psi })
+            {
+                process.Start();
+
+                using (StreamWriter sw = process.StandardInput)
+                {
+                    sw.WriteLine(input);
+                }
+
+                string output = process.StandardOutput.ReadToEnd();
+                process.WaitForExit(5000); // Timeout 5 sekund
+
+                return (process.ExitCode, output);
+            }
+        }
+
+        // TEST 1 (poprawny): Poprawne uruchomienie i zakończenie procesu w systemie
+        [Fact]
+        public void System_UruchomienieAplikacji_ZwracaKodSukcesuZero()
+        {
+            // Act
+            var (exitCode, output) = UruchomProcesSystemowy("1");
+
+            // Assert
+            Assert.Equal(0, exitCode);
+            Assert.Contains("Ile wygenerować losowań?", output);
+            Assert.Contains("Zestawy wylosowanych liczb:", output);
+        }
+    }
+}
