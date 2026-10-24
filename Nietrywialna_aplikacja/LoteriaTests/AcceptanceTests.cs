@@ -1,4 +1,6 @@
-﻿namespace Loteria
+﻿using System.Text.RegularExpressions;
+
+namespace Loteria
 {
     public class AcceptanceTests
     {
@@ -33,6 +35,31 @@
             Assert.Contains("Losowanie 2:", wynik);
             Assert.Contains("Losowanie 3:", wynik);
             Assert.DoesNotContain("Losowanie 4:", wynik);
+        }
+
+        // TEST 2 (poprawny): Scenariusz – weryfikacja zasad gry (6 unikalnych liczb)
+        [Fact]
+        public void Akceptacyjny_ZestawyLiczb_KazdyZestawRoznyIUnikalneLiczby()
+        {
+            // Given: Użytkownik zamawia 1 zestaw
+            string wejscieUzytkownika = "1";
+
+            // When: Program generuje losowanie
+            string wynik = UruchomAplikacjeJakoUzytkownik(wejscieUzytkownika);
+
+            // Then: Dopasowujemy konkretną linię "Losowanie 1: ..." aż do końca wiersza
+            Match match = Regex.Match(wynik, @"Losowanie 1:\s*(.+)");
+            Assert.True(match.Success, "Nie odnaleziono linii z wynikami losowania.");
+
+            // Wyciągamy tylko cyfry z tej linii
+            int[] liczby = Regex.Matches(match.Groups[1].Value, @"\d+")
+                                .Cast<Match>()
+                                .Select(m => int.Parse(m.Value))
+                                .ToArray();
+
+            Assert.Equal(6, liczby.Length); // Dokładnie 6 liczb
+            Assert.Equal(6, liczby.Distinct().Count()); // Wszystkie liczby unikalne
+            Assert.All(liczby, liczba => Assert.InRange(liczba, 1, 49)); // Zakres 1-49
         }
 
     }
