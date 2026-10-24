@@ -1,6 +1,6 @@
 ﻿namespace Loteria
 {
-    public class UnitTest1
+    public class UnitTests
     {
         // TEST 1 (poprawny): zestaw zawiera dokładnie 6 liczb
         [Fact]
