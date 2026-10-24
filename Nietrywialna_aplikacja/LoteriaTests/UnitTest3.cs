@@ -39,13 +39,25 @@ namespace Loteria
         [Fact]
         public void System_UruchomienieAplikacji_ZwracaKodSukcesuZero()
         {
-            // Act
             var (exitCode, output) = UruchomProcesSystemowy("1");
 
-            // Assert
             Assert.Equal(0, exitCode);
             Assert.Contains("Ile wygenerować losowań?", output);
             Assert.Contains("Zestawy wylosowanych liczb:", output);
+        }
+
+        // TEST 2 (poprawny): Weryfikacja struktury wyjścia systemowego dla wielu zestawów
+        [Fact]
+        public void System_GenerowanieWieluZestawow_FormatWyjsciaZgodnyZWymaganiami()
+        {
+            var (exitCode, output) = UruchomProcesSystemowy("3");
+
+            Assert.Equal(0, exitCode);
+            Assert.Contains("Losowanie 1:", output);
+            Assert.Contains("Losowanie 2:", output);
+            Assert.Contains("Losowanie 3:", output);
+            Assert.DoesNotContain("Losowanie 4:", output);
+            Assert.Contains("Wystąpienia liczby 49:", output);
         }
     }
 }
