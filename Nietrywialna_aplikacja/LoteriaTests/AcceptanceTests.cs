@@ -62,5 +62,23 @@ namespace Loteria
             Assert.All(liczby, liczba => Assert.InRange(liczba, 1, 49)); // Zakres 1-49
         }
 
+        // TEST 3 (poprawny): Scenariusz – dostępność pełnego podsumowania statystyk
+        [Fact]
+        public void Akceptacyjny_PodsumowanieWystapien_ZawieraWszystkieLiczbyOd1Do49()
+        {
+            // Given: Użytkownik zamawia 2 zestawy
+            string wejscieUzytkownika = "2";
+
+            // When: Aplikacja kończy generowanie
+            string wynik = UruchomAplikacjeJakoUzytkownik(wejscieUzytkownika);
+
+            // Then: Wyświetlone są statystyki dla każdej z 49 liczb
+            for (int i = 1; i <= 49; i++)
+            {
+                Assert.Contains($"Wystąpienia liczby {i}:", wynik);
+            }
+        }
+
+
     }
 }
